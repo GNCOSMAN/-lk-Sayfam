@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+     background: url(hills.jpg);
+     height: 100vh;
+     background-size: 100% 100%;
+    
+}
+.navbar{
+     height: 80px;
+     width: 100%;
+     background-color: rgb(173, 173, 173);
+}
+.navbar .logo{
+    margin-top: 25px;
+    margin-left: 40px;
+    display: inline-block;
+
+}
+.logo a{
+    font-family: serif;
+    font-size: 30px;
+    color: azure;
+    text-decoration: none;
+    background-color: rgb(10, 10, 10);
+    padding: 13px 13px;
+    border-radius: 99px 1px 99px 1px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 40px;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    margin-top: 30px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 40px;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    margin-top: 30px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 40px;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    margin-top: 30px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 40px;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    margin-top: 30px;
+    
+}
+.navbar .pad{
+    color: rgb(46, 46, 46);
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: black;
+   
+   
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    outline: none;
+}
+.navbar ul li a.pad,
+.navbar ul li a:hover{
+    background: black;
+    transition: 3s;
+    padding: 5px 5px;
+    border-radius: 8px;
+
+}
+.banner .bannerx{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    user-select: none;
+    
+    
+    
+}
+.bannerx h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+   
+    
+}
+.bannerx h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.bannerx .buttons{
+    margin-top: 10px;
+
+}
+.buttons button{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    background: black;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 2px 4px;
+    border: solid 0.5px wheat;
+    transition: 2s;
+    outline: none;
+    margin: 0 8px;
+}
+.buttons button:hover{
+    background: grey;
+}  
